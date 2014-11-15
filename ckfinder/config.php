@@ -59,7 +59,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = '/mapegy/ckfinder/userfiles/';
+$baseUrl = '/ckfinder/userfiles/';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the
