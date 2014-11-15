@@ -18,6 +18,7 @@ class Home extends CI_Controller {
     }
 
     public function index() {
+        $this->data['page_title'] = 'Alfa Consult';
         $this->data['services'] = ServicesTable::getActiveServices(1);
         $this->data['projects'] = ProjectsTable::getActiveProjects(2);
         $page_id = 'about-us';
