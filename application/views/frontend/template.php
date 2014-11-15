@@ -9,7 +9,7 @@
 <body>
 <div id="wrapper">
 	<div id="header">
-    	<a href="" class="logo-with-slogan"></a>
+    	<a href="<?php echo base_url();?>" class="logo-with-slogan"></a>
                 
         <a href="" class="download-brochure"></a>
         <div class="social-network-links">
